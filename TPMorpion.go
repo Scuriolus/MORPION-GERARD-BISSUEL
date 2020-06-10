@@ -319,4 +319,5 @@ func Replay(arg *winc.Event) {
 	btn9.SetText("")
 	GagnantX.SetText("Recommencer")
 	GagnantX.OnClick().Bind(Replay)
+	turn = false
 }
